@@ -67,10 +67,7 @@ handtalk-sign-language-detection/
 └── Logs/
 ```
 
-```
-
 ---
-
 ## Installation
 
 ### Clone the Repository
