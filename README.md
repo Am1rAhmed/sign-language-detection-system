@@ -45,12 +45,16 @@ handtalk-sign-language-detection/
 │
 ├── app.py
 ├── utils.py
-├── load_dataset.py
-├── collect_data.py
-├── train_model.py
-├── evaluate_model.py
 ├── requirements.txt
 ├── sign_language_model.h5
+├── ver_1.ipynb
+├── ver_2.ipynb
+│
+├── training/
+│   ├── collect_data.py
+│   ├── load_dataset.py
+│   ├── train_model.py
+│   └── evaluate_model.py
 │
 ├── MP_Data/
 │
@@ -63,6 +67,8 @@ handtalk-sign-language-detection/
 └── Logs/
 ```
 
+```
+
 ---
 
 ## Installation
@@ -70,9 +76,9 @@ handtalk-sign-language-detection/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/handtalk-sign-language-detection.git
+git clone https://github.com/your-username/sign-language-detection-system.git
 
-cd handtalk-sign-language-detection
+cd sign-language-detection-system
 ```
 
 ### Create a Virtual Environment
@@ -108,14 +114,6 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
-
-Open your browser and visit:
-
-```text
-http://127.0.0.1:5000
-```
-
----
 
 ## Dataset Preparation
 
@@ -168,4 +166,4 @@ This project is licensed under the MIT License.
 
 ## Author
 
-Amir
+Amir Ahmed Siddiqui
