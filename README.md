@@ -66,6 +66,26 @@ handtalk-sign-language-detection/
 │
 └── Logs/
 ```
+## Dataset Access
+
+The `MP_Data` folder is not included in this repository due to its large size.
+
+You can download the dataset from Google Drive:
+
+**Google Drive Link:** https://drive.google.com/file/d/1L9MUH5e5Ig9NYiKnITYZEyD4oT-i5syO/view?usp=sharing
+
+After downloading, extract the `MP_Data` folder and place it in the project root directory:
+
+```text
+sign-language-detection-system/
+│
+├── MP_Data/
+├── app.py
+├── utils.py
+└── ...
+```
+
+The application and training scripts expect the `MP_Data` directory to be located in the project root.
 
 ---
 ## Installation
